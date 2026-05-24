@@ -12,4 +12,4 @@ thiserror = "2.0.18"
 
 [build-dependencies]
 bindgen = "0.72.1"
-cc = "1.2.62"
+cc = { version = "1.2.62", features = ["parallel"] }

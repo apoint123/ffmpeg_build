@@ -121,6 +121,8 @@ fn main() {
         build.flag("/utf-8");
     }
 
+    build.warnings(false);
+
     build.compile("ffmpeg_audio");
 
     if target.contains("linux") || target.contains("android") || target.contains("darwin") {
