@@ -1,0 +1,12 @@
+CompileFlags:
+  CompilationDatabase: "./ffmpeg/build/"
+  Add:
+    - "-I./ffmpeg"
+    - "-I./ffmpeg/build"
+
+Index:
+  Background: Build
+
+Diagnostics:
+  ClangTidy:
+    Remove: ["*"]

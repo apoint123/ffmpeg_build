@@ -1,0 +1,15 @@
+[package]
+name = "ffmpeg_build"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+doctest = false
+
+[dependencies]
+libc = "0.2.186"
+thiserror = "2.0.18"
+
+[build-dependencies]
+bindgen = "0.72.1"
+cc = "1.2.62"
